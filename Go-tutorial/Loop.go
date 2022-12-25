@@ -9,4 +9,8 @@ func main() {
 	for i = 0; i < 5; i++ {
 		fmt.Println(arr[i])
 	}
+
+	for true {
+		fmt.Printf("This loop will run forever.\n")
+	}
 }
